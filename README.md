@@ -1,13 +1,7 @@
 # Lime-Workshop
 
-This workshop is designed to equip participants with techniques to enhance the business value of machine learning applications with a focus on sustainability. It covers strategies for understanding and successfully defining project scopes to decrease the chances of wasting resources, while also investigating various methods to evaluate the performance of your models.
+This workshop is intended to guide participants through the usage of LIME with a simple ML model that predicts energy ratings for buildings in New York City. [LIME](https://christophm.github.io/interpretable-ml-book/lime.html) stands for **Local Interpretable Model-agnostic Explanations**. LIME focuses on training local surrogate models to explain individual predictions. Local surrogate models are interpretable models that are used to explain individual predictions of black box machine learning models. Surrogate models are trained to approximate the predictions of the underlying black box model. Instead of training a global surrogate model, LIME focuses on training local surrogate models. LIME is model-agnostic, meaning that it can be applied to any machine learning model. The technique attempts to understand the model by perturbing the input of data samples and understanding how the predictions change.
+    
+The data used in this workshop can be found at https://www.kaggle.com/datasets/mikhailma/energy-efficiency-of-buildings-in-new-york
 
-What metrics should you use to optimize your ML model? How should you communicate these metrics to your stakeholders to indicate business value?
-
-Ultimately, this workshop will look into ways to explain your model's decisions to improve the model and gain insights on the nature of the problem.
-What to Expect
-
-    Learn strategies to define project scopes that minimize resource waste.
-    Explore methods for evaluating ML model performance and identifying key optimization metrics.
-    Gain insights into effective communication of metrics to stakeholders for showcasing business value.
-    Understand the significance of model explainability and its impact on decision-making and problem insights.
+This workshop was given at the Baise AI Symposium on the 24th of May 2023
